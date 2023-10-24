@@ -1,0 +1,18 @@
+/* seletor global: SELECIONA TODOS OS ELEMENTOS da página ou de determinado lugar */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* seletor por tag */
+
+p{
+    color: #201335;
+}
+
+.par{
+    border: 2px solid #FFB17A;
+    color: #FCE762;
+}
