@@ -3,16 +3,53 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* seletor por tag */
-
+/* Seletor por tag */
+main{
+    margin-top: 1rem;
+}
 p{
     color: #201335;
 }
 
+
+/* Seletor por classe */
 .par{
     border: 2px solid #FFB17A;
+    border-radius: 0.5rem;
     color: #FCE762;
+    margin-top: 1rem;
 }
+
+/* Seletor por id */
+#title{
+    color: #4F4789;
+    margin-bottom: 1rem;
+}
+
+/* Seletor pelo atributo */
+input[type="password"]{
+    font-size: 2rem;
+}
+
+/* Seletor de descendentes */
+.login-form input{
+font-size: 2rem;
+color: #FCE762;
+}
+
+/* Seletor de filhos diretos */
+
+.login-form > input{
+    color: #201335;
+    width: 10rem;
+}
+
+/* Seletor de Pseudo-Classes */
+
+.cadastro-form div:nth-of-type(2){
+    font-size: 1rem;
+    color: #201335;
